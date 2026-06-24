@@ -1,0 +1,21 @@
+{
+  "name": "browser-engine",
+  "version": "1.0.0",
+  "description": "JSON Render Engine is a lightweight, from-scratch browser rendering pipeline built entirely in Node.js. It takes a JSON object representing a DOM-like tree and renders it into high-quality PNG images and vector-based, searchable PDF documents.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakashyadav-sys/node-browser-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakashyadav-sys/node-browser-engine/issues"
+  },
+  "homepage": "https://github.com/aakashyadav-sys/node-browser-engine#readme"
+}
