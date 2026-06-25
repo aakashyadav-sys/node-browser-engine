@@ -37,13 +37,23 @@ class Logger {
     }
 
 
-
     getLogs() {
         return this.logs;
     }
 
     clearLogs() {
         this.logs = [];
+    }
+
+    phase(pahseName) {
+        console.log(`\n${'='.repeat(50)}`);
+        console.log(`PHASE :  ${pahseName}`);
+        console.log(`${'='.repeat(50)}\n`);
+    }
+
+    step(stepNum, description) {
+        console.log(`\n Step ${stepNum} : ${description}`);
+        console.log(`${'-'.repeat(40)}`)
     }
 }
 
