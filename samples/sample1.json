@@ -1,0 +1,317 @@
+{
+  "type": "document",
+  "id": "root",
+  "style": {
+    "width": 595,
+    "height": 842,
+    "backgroundColor": "#ffffff",
+    "padding": 40
+  },
+  "children": [
+    {
+      "type": "container",
+      "id": "header",
+      "style": {
+        "backgroundColor": "#2563eb",
+        "padding": 20,
+        "borderRadius": 8,
+        "margin": [0, 0, 20, 0]
+      },
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "value": "Invoice #2024-001",
+          "style": {
+            "fontSize": 28,
+            "fontWeight": "bold",
+            "color": "#ffffff"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Date: January 15, 2024",
+          "style": {
+            "fontSize": 14,
+            "color": "#bfdbfe",
+            "margin": [8, 0, 0, 0]
+          }
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "id": "billing-info",
+      "style": {
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 20,
+        "margin": [0, 0, 20, 0]
+      },
+      "children": [
+        {
+          "type": "container",
+          "style": {
+            "flex": 1,
+            "backgroundColor": "#f8fafc",
+            "padding": 16,
+            "borderRadius": 6
+          },
+          "children": [
+            {
+              "type": "text",
+              "style": { "fontSize": 12, "color": "#64748b" },
+              "value": "BILL TO"
+            },
+            {
+              "type": "text",
+              "style": {
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "margin": [4, 0, 0, 0]
+              },
+              "value": "John Doe"
+            },
+            {
+              "type": "text",
+              "style": {
+                "fontSize": 14,
+                "color": "#475569",
+                "margin": [4, 0, 0, 0]
+              },
+              "value": "123 Main Street"
+            },
+            {
+              "type": "text",
+              "style": { "fontSize": 14, "color": "#475569" },
+              "value": "New York, NY 10001"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "flex": 1,
+            "backgroundColor": "#f8fafc",
+            "padding": 16,
+            "borderRadius": 6
+          },
+          "children": [
+            {
+              "type": "text",
+              "style": { "fontSize": 12, "color": "#64748b" },
+              "value": "FROM"
+            },
+            {
+              "type": "text",
+              "style": {
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "margin": [4, 0, 0, 0]
+              },
+              "value": "Acme Corp"
+            },
+            {
+              "type": "text",
+              "style": {
+                "fontSize": 14,
+                "color": "#475569",
+                "margin": [4, 0, 0, 0]
+              },
+              "value": "456 Business Ave"
+            },
+            {
+              "type": "text",
+              "style": { "fontSize": 14, "color": "#475569" },
+              "value": "San Francisco, CA 94102"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "id": "items-table",
+      "style": {
+        "border": { "width": 1, "color": "#e2e8f0" },
+        "borderRadius": 6,
+        "overflow": "hidden"
+      },
+      "children": [
+        {
+          "type": "container",
+          "style": {
+            "display": "flex",
+            "flexDirection": "row",
+            "backgroundColor": "#f1f5f9",
+            "padding": 12
+          },
+          "children": [
+            {
+              "type": "text",
+              "style": {
+                "flex": 2,
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "color": "#475569"
+              },
+              "value": "Description"
+            },
+            {
+              "type": "text",
+              "style": {
+                "flex": 1,
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "color": "#475569",
+                "textAlign": "right"
+              },
+              "value": "Qty"
+            },
+            {
+              "type": "text",
+              "style": {
+                "flex": 1,
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "color": "#475569",
+                "textAlign": "right"
+              },
+              "value": "Price"
+            },
+            {
+              "type": "text",
+              "style": {
+                "flex": 1,
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "color": "#475569",
+                "textAlign": "right"
+              },
+              "value": "Total"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "display": "flex",
+            "flexDirection": "row",
+            "padding": 12,
+            "border": { "width": 1, "color": "#e2e8f0" }
+          },
+          "children": [
+            {
+              "type": "text",
+              "style": { "flex": 2, "fontSize": 14 },
+              "value": "Web Development Services"
+            },
+            {
+              "type": "text",
+              "style": { "flex": 1, "fontSize": 14, "textAlign": "right" },
+              "value": "1"
+            },
+            {
+              "type": "text",
+              "style": { "flex": 1, "fontSize": 14, "textAlign": "right" },
+              "value": "$5,000.00"
+            },
+            {
+              "type": "text",
+              "style": {
+                "flex": 1,
+                "fontSize": 14,
+                "textAlign": "right",
+                "fontWeight": "bold"
+              },
+              "value": "$5,000.00"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "style": {
+            "display": "flex",
+            "flexDirection": "row",
+            "padding": 12,
+            "border": { "width": 1, "color": "#e2e8f0" }
+          },
+          "children": [
+            {
+              "type": "text",
+              "style": { "flex": 2, "fontSize": 14 },
+              "value": "UI/UX Design"
+            },
+            {
+              "type": "text",
+              "style": { "flex": 1, "fontSize": 14, "textAlign": "right" },
+              "value": "1"
+            },
+            {
+              "type": "text",
+              "style": { "flex": 1, "fontSize": 14, "textAlign": "right" },
+              "value": "$2,500.00"
+            },
+            {
+              "type": "text",
+              "style": {
+                "flex": 1,
+                "fontSize": 14,
+                "textAlign": "right",
+                "fontWeight": "bold"
+              },
+              "value": "$2,500.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "id": "total-section",
+      "style": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "margin": [20, 0, 0, 0]
+      },
+      "children": [
+        {
+          "type": "container",
+          "style": {
+            "width": 200,
+            "backgroundColor": "#f0fdf4",
+            "padding": 16,
+            "borderRadius": 6
+          },
+          "children": [
+            {
+              "type": "text",
+              "style": { "fontSize": 14, "color": "#64748b" },
+              "value": "Subtotal: $7,500.00"
+            },
+            {
+              "type": "text",
+              "style": {
+                "fontSize": 14,
+                "color": "#64748b",
+                "margin": [4, 0, 0, 0]
+              },
+              "value": "Tax (10%): $750.00"
+            },
+            {
+              "type": "text",
+              "style": {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "color": "#16a34a",
+                "margin": [8, 0, 0, 0]
+              },
+              "value": "Total: $8,250.00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

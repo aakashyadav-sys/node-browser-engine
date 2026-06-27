@@ -49,8 +49,8 @@ class Node {
     }
 
     addChild(child) {
-        child?.parent = this;
-        chils?.depth = this.depth + 1;
+        child.parent = this;
+        chils.depth = this.depth + 1;
         this.children.push(child);
         return child;
     }
@@ -127,7 +127,7 @@ class Node {
         };
 
         if (this.isText) {
-            obj?.value = this.value;
+            obj.value = this.value;
         }
 
         if (this.children.length > 0) {
